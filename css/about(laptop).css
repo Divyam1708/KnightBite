@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+p,h1,div{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 body{
     margin: auto;
     padding: auto;
@@ -13,7 +18,7 @@ a{
 }
 .container {
     margin: auto;
-    max-width: 98.6em;
+    max-width: 92.6em;
     /* border: 2px solid green; */
 }
 
@@ -63,5 +68,154 @@ a{
     color: whitesmoke;
 }
 
-
 /*NAVBAR ENDS*/
+
+
+
+
+
+
+/* BANNER 1 BEGINS*/
+#banner1{
+    background-image: url(https://knight-bite.com/res/about/banner.webp);
+    height: 920px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#banner1 p{
+    font-size: 50px;
+    font-weight:600;
+    width: 50%;
+    margin-left: 80px;
+    text-transform: uppercase;
+    color: white;
+}
+/* BANNER 1 ENDS*/
+
+
+/* SECTION 1 GRID BEGINS */
+#section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 40px;
+    justify-items: center;
+    align-items: center;
+    padding-inline: 60px;
+    padding-block: 80px;
+}
+
+
+#section1 p,div{
+    font-size: 20px;
+}
+
+#section1div3{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
+#section1image1{
+    width: 500px;
+    
+}
+
+
+#section1image2{
+    width: 620px;
+}
+
+#section1image3{
+    width: 620px;
+
+}
+/* SECTION 1 GRID ENDS */
+
+
+
+
+
+
+/* FOOTER BEGINS */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#location_and_timing{
+    width: 50%;
+}
+
+.locationstyle{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.location{
+    font-size: 20px;
+
+}
+
+.footer_heading{
+    font-size: 35px;
+    font-weight: 600;
+    margin-block: 20px;
+}
+
+
+footer span{
+    font-weight: 100;
+}
+
+
+
+
+#follow_us_div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.fuicons{
+
+}
+/* FOOTER ENDS */
+
+
+
+
+
+#after_footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+
+}
+
+
+/* FLOATING ELEMENT START */
+#floating_element_1{
+    width: 60px;
+    height: 69px;
+    background-color: #FF5672;
+    background: url(https://imgs.search.brave.com/_Dhr8-fa2IBjUE1c-NwiLd0hYhsohdQzEk16o3-s0PY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni85NTc2Lzk1NzY4/MjUucG5nP3NlbXQ9/YWlzX2h5YnJpZA);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+}
+/* FLOATING ELEMENT END */

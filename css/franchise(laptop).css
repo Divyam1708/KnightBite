@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+p,h1,div{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body{
     margin: auto;
     padding: auto;
@@ -65,3 +67,23 @@ a{
 
 
 /*NAVBAR ENDS*/
+
+
+
+
+
+
+
+/* FLOATING ELEMENT START */
+#floating_element_1{
+    width: 60px;
+    height: 69px;
+    background-color: #FF5672;
+    background: url(https://imgs.search.brave.com/_Dhr8-fa2IBjUE1c-NwiLd0hYhsohdQzEk16o3-s0PY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni85NTc2Lzk1NzY4/MjUucG5nP3NlbXQ9/YWlzX2h5YnJpZA);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+}
+/* FLOATING ELEMENT END */
