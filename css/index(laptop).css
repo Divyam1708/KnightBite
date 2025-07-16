@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -10,8 +11,8 @@ body{
 
 .container {
     margin: auto;
-    max-width: 91.6em;
-    border: 2px solid green;
+    max-width: 98.6em;
+    /* border: 2px solid green; */
 }
 
 
@@ -21,14 +22,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.6);
     box-shadow: 1px 1px 20px black;
     height:100px;
-    width: 91.6em;
+    min-width: 91.6em;
     position: fixed;
     top: 50px; 
     left: 50%; 
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 .navbar_logo{
@@ -62,3 +63,367 @@ body{
 
 
 /*NAVBAR ENDS*/
+
+
+
+
+
+
+
+/* TOP IMAGE DIV BEGINS */
+#top_image_div{
+    background-image: url(https://knight-bite.com/res/index/app-link-background.svg);
+    height: 800px;
+    /* background-position: center; */
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+#top_image_div1{
+    font-size: 70px;
+}
+
+.order_web_style{
+    border: 2px solid chocolate;
+    padding-inline: 20px;
+    padding-block: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF5672;
+}
+
+
+#top_image_div3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#top_image_div4{
+    display: flex;
+    gap: 20px;
+}
+
+.app_visitable_box{
+    width: 200px;
+    height: 66px;
+    background-position: center;
+    background-size: cover;
+}
+
+#app_store{
+    background-image: url(https://knight-bite.com/res/index/ios-store.svg);
+}
+
+#play_store
+{
+    background-image: url(https://knight-bite.com/res/index/google-play-badge.svg);
+}
+/* TOP IMAGE DIV ENDS */
+
+
+
+
+
+
+
+
+/* FETURES START */
+
+#feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+
+#featureindiv1{
+    font-size: 80px;
+}
+
+
+#featutreindiv2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-inline: 30px;
+}
+
+#featutreindiv2 p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.features_div{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.features_images{
+    width: 200px;
+}
+
+/* FEATURES END */
+
+
+
+
+/* AFTER FEATURE IMAGE DIV BEGINS */
+#after_feature_image_div{
+    background-image: url(https://knight-bite.com/res/index/banner-1.webp);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#after_feature_image_div p{
+    font-size: 90px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+/* AFTER FEATURE IMAGE DIV ENDS */
+
+
+
+
+/* BANNER 3 BEGINS */
+#banner3{
+    background-image: url(https://knight-bite.com/res/index/banner-2.webp);
+    height: 1000px;
+    background-position:left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner3 p{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: end;
+}
+
+#banner3_button_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    height: 40%;
+}
+
+#menu_button{
+    border: 2px solid white;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-inline:30px;
+    padding-block: 10px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+/* BANNER 3 ENDS */
+
+
+
+
+
+
+/* CONNECT WITH US BEGINS */
+#connect_with_us{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#connect_with_us_div1{
+    font-size: 80px;
+    text-align: center;
+    margin-block-end: 60px;
+}
+
+#connnect_with_us_div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    padding-inline: 50px;
+}
+
+.cwu ul{
+    margin-inline-start: 20px;
+}
+
+.cwu li,p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.cwu li{
+    margin-block: 30px;
+}
+
+
+.cwu_heading{
+    font-size: 35px;
+    font-weight: 600;
+    margin-block-end: 30px;
+}
+
+.cwud2s{
+    padding-inline-start: 40px;
+}
+
+#cwud2indiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+#phone_message_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    height: 90%;
+
+}
+#message_box{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+#cwu_message{
+    background-image: url(https://knight-bite.com/res/index/mail_icon.svg);
+    width: 45px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+#call_box{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+
+#cwu_call{
+    background-image: url(https://knight-bite.com/res/index/phone_icon.svg);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#cwud2indiv2{
+    /* border: 2px solid red; */
+}
+
+
+#cwud2indiv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#cwud2indiv3 p{
+    font-size: 25px;
+}
+
+#cwud2indiv3 input{
+    width: 500px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+
+#email_div{
+    position: relative;
+}
+#email_button{
+    position: absolute;
+    height: 74px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-image: url(https://knight-bite.com/res/index/email-btn.svg);
+    background-position: center;
+    background-size: cover;
+    left: 440px;
+}
+
+
+#follow_us{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.fuicons{
+
+}
+
+
+
+#connect_with_us_div3{
+    display: flex;
+    justify-content: center;
+    margin-block: 10px;
+}
+
+#connect_with_us_div4{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+
+}
+
+
+
+/* CONNECT WITH US ENDS */
+
+
+
+
+
+/* FLOATING ELEMENT START */
+#floating_element_1{
+    width: 60px;
+    height: 69px;
+    background-color: #FF5672;
+    background: url(https://imgs.search.brave.com/_Dhr8-fa2IBjUE1c-NwiLd0hYhsohdQzEk16o3-s0PY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni85NTc2Lzk1NzY4/MjUucG5nP3NlbXQ9/YWlzX2h5YnJpZA);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+}
+/* FLOATING ELEMENT END */
