@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    margin: auto;
+    max-width: 91.6em;
+    border: 2px solid green;
+}
+
+
+
+/* NAVBAR BEGINS */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 1px 1px 20px black;
+    height:100px;
+    width: 91.6em;
+    position: fixed;
+    top: 50px; 
+    left: 50%; 
+    transform: translate(-50%, -50%)
+}
+
+.navbar_logo{
+    background-image: url(https://knight-bite.com/res/kb_logo_new_2.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 40px;
+    margin-inline: 50px;
+}
+
+
+.navbar_menu{
+    margin-inline: 100px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+#navbar li{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+/*NAVBAR ENDS*/
