@@ -8,7 +8,9 @@ body{
     margin: auto;
     padding: auto;
 }
-
+a{
+    all:none;
+}
 .container {
     margin: auto;
     max-width: 98.6em;
@@ -371,13 +373,13 @@ body{
 }
 #email_button{
     position: absolute;
-    height: 74px;
+    height: 70px;
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-image: url(https://knight-bite.com/res/index/email-btn.svg);
     background-position: center;
     background-size: cover;
-    left: 440px;
+    left: 430px;
 }
 
 

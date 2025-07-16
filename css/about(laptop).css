@@ -1,17 +1,20 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
     margin: auto;
     padding: auto;
 }
-
+a{
+    all:none;
+}
 .container {
     margin: auto;
-    max-width: 91.6em;
-    border: 2px solid green;
+    max-width: 98.6em;
+    /* border: 2px solid green; */
 }
 
 
@@ -21,14 +24,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.6);
     box-shadow: 1px 1px 20px black;
     height:100px;
-    width: 91.6em;
+    min-width: 91.6em;
     position: fixed;
     top: 50px; 
     left: 50%; 
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 .navbar_logo{
@@ -52,8 +55,12 @@ body{
     gap: 20px;
 }
 #navbar li{
-    color: whitesmoke;
     font-size: 20px;
+}
+
+.navlielements a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 
