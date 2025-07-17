@@ -68,6 +68,16 @@ a{
     color: whitesmoke;
 }
 
+.navlielements a:hover{
+    color: aqua;
+}
+
+
+.activenav{
+    border-bottom: 2px solid sandybrown;
+    padding: 10px;
+}
+
 /*NAVBAR ENDS*/
 
 

@@ -66,6 +66,17 @@ a{
 }
 
 
+
+
+.navlielements a:hover{
+    color: aqua;
+}
+
+
+.activenav{
+    border-bottom: 2px solid sandybrown;
+    padding: 10px;
+}
 /*NAVBAR ENDS*/
 
 
@@ -358,6 +369,12 @@ a{
     justify-content: space-around;
 }
 
+.cwud2va{
+    all: none;
+    text-decoration: none;
+    color: #FF5672;
+    font-weight: 500;
+}
 
 #cwud2indiv3 p{
     font-size: 25px;
