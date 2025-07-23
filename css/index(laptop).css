@@ -444,8 +444,9 @@ a{
     background-position: center;
     background-size: cover;
     position: fixed;
-    right: 100px;
-    bottom: 50px;
+    right: 5em;
+    bottom: 3em;
+    /* left: ; */
 }
 /* FLOATING ELEMENT END */
 
