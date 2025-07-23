@@ -12,6 +12,7 @@ body{
 }
 a{
     all:none;
+    text-decoration: none;
 }
 .container {
     margin: auto;
